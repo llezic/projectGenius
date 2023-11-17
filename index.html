@@ -4,18 +4,117 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="nav">
             <!-- lodo && menu -->
+            <img src="imgs/logo.svg" alt="логотип" class="logo logo-nav">
+            <ul class="info-nav">
+                <li class=""><a href="#" class="">Про нас</a></li>
+                <li class=""><a href="#" class="">Чому ми</a></li>
+                <li class=""><a href="#" class="">Наші процедури</a></li>
+                <li class=""><a href="#" class="">Контакти</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-  <button></button>
+        <section class="main-page">
+            <div class="main-info">
+                <p class="subtitle">Косметологічна клініка</p>
+                <h1 class="title">beauty<br>zone</h1>
+                <button class="btn-order" type="button">Замовити дзвінок</button>
+                <p class="txt-info">Запишись та отримай безкоштовну<br>консультацію нашого косметолога</p>
+            </div> 
+        </section>
+        <section class="result-page">
+            <div class="result-txt  ">
+                <h3 class="">Перевтілюйтесь в <span class="span-title">beauty zone!</span></h3>
+                <p class="txt-offer">Наша косметологічна клініка пропонує вам професійні послуги<br>з догляду за шкірою обличчя та тіла.</p>
+                <p class="txt-procedures">B <span class="span-txt">beauty zone</span>ми гарантуємо найвищі стандарти якості та приємний сервіс. Наші косметологічні процедури та препарати допоможуть вам підтримувати свою красу та молодість. З нами краса назавжди!</p>
+            </div>
+              <img src="imgs/face-before.png" alt="обличчя жінки до косметичного втручання" class="face-before">
+              <img src="imgs/face-after.png" alt="обличчя жінки після косметичного втручання" class="face-after">
+        </section>
+        <section class="card-info">
+            <h3 class="card-title">Чому люди <span class="span-title">обирають нас</span></h3>
+          <ul class="cards">
+            <li class="card">
+                <div class="card-first">
+                    <img src="imgs/icon1.svg" alt="" class="">
+                    <p class="card-txt">Всі наші косметологи мають вищу медичну освіту та стаж роботи від 5 років</p>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card-second">
+                    <img src="imgs/icon2.png" alt="" class="">
+                    <p class="card-txt">Використовуємо тільки професійне обладнання та косметику, перевірену часом</p>
+                </div>
+            </li>
+            <li class="card">
+                <div class="card-third">
+                    <img src="imgs/icon3.png" alt="" class="">
+                    <p class="card-txt">Наша мета - підкреслити переваги та приховати недоліки, а не переробити</p>
+                </div>
+            </li>
+         </ul>
+        </section>
+        <section class="procedures">
+            <h3 class="">Наші <span class="span-title">процедури</span></h3>
+            <img src="" alt="" class="arrow-left">
+            <div class="img-face-first">
+                <img src="imgs/face1.png" alt="" class="">
+                <p class="">Маски для обличчя</p>
+            </div>
+            <div class="img-face-second">
+                <img src="imgs/face2.png" alt="" class="">
+                <p class="">Маски для обличчя</p>
+            </div>
+            <div class="img-face-third">
+                <img src="imgs/face3.png" alt="" class="">
+                <p class="">Маски для обличчя</p>
+            </div>
+            <img src="" alt="" class="arrow-right">
+        </section>
+        <section class="registration">
+            <h3 class="">Як нас <span class="span-title">знайти</span></h3>
+            <div class="info-registration">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.9323900545287!2d30.51560037605997!3d50.44235998794691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cef8b5f6338d%3A0x25c7f06ad686451c!2z0LHRg9C70YzQstCw0YAg0KLQsNGA0LDRgdCwINCo0LXQstGH0LXQvdC60LAsIDUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1700236754447!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="field-registration">
+                    <h6 class="">Запишітьс <span class="span-title">безкоштовно</span>та отримайте подарунок</h6>
+                    <input type="text" class="name-int" placeholder="Ваше ім'я та прізвище">
+                    <input type="text" class="namber-int" placeholder="Ваш номер телефонуе">
+                    <input type="text" class="mail-int" placeholder="Ваша електронна пошта">
+                    <button class="btn-registration">Записатись безкоштовно</button>
+                    <p class="policy-txt">Натискаючи на кнопку я погоджуюсь з політикою конфіденційності</p>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <img src="imgs/logo.svg" alt="логотип" class="logo-futer">
+        <ul class="list-info-footer">
+            <div class="">
+                <li class=""><a href="#" class="">Про нас</a></li>
+                <li class=""><a href="#" class="">Чому ми</a></li>
+                <li class=""><a href="#" class="">Наші процедури</a></li>
+                <li class=""><a href="#" class="">Контакти</a></li>
+            </div>
+            <div class="basic-data"> 
+                <li class=""><a href="#" class="">+ 38 (096) 000 00 07</a></li>
+                <li class=""><a href="#" class="">beautyzone@gmail.com</a></li>
+                <li class=""><a href="#" class="">Україна, м. Київ,<br>вул. Тараса Шевченка 5</a></li>
+            <div class="networks">
+                <img src="" alt="" class="">
+                <img src="" alt="" class="">
+                <img src="" alt="" class="">
+                <p class="privacy-policy-futer">Політика конфіденційності</p>
+                <p class="data-protected">© 2022 Дані захищені</p>
+            </div>   
+            </div>
+        </ul>
+         
     </footer>
 </body>
 </html>
